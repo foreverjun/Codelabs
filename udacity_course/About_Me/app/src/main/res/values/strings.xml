@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">About_Me</string>
+    <string name="name">Matvey M</string>
+    <string name="yellow_star">Yellow Star</string>
+    <string name="bio">
+        Hi, my name is Matvey, and there should be my bio here, but it won\'t be here because I\'m too lazy to write it. The text is a stub:
+        sdvsavvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+        sdvvccdsacdsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssvasxac
+        cddccccccccccccccccccccccccccccccccccccccccdcssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+        sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+        sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+        sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+        sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+    </string>
+    <string name="what_is_Your_nickname">What is your nickname</string>
+    <string name="done">Done</string>
+</resources>
