@@ -1,7 +1,6 @@
 package com.example.android.guesstheword.screens.game
 
 import android.os.CountDownTimer
-import android.text.format.DateUtils
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
