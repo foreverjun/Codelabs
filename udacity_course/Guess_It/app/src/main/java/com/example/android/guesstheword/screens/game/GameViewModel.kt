@@ -31,7 +31,7 @@ class GameViewModel : ViewModel() {
     val eventGameFinish: LiveData<Boolean> = _eventGameFinish
     val currentTime: LiveData<Long> = _currentTime
     val currentTimeString = Transformations.map(currentTime) { time ->
-        DateUtils.formatElapsedTime(time/ ONE_SECOND)
+        DateUtils.formatElapsedTime(time)
     }
 
     // The list of words - the front of the list is the next word to guess
