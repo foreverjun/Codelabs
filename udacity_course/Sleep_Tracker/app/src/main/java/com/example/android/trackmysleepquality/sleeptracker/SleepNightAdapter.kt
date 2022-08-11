@@ -21,13 +21,12 @@ class SleepNightAdapter : RecyclerView.Adapter<SleepNightAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
-        val view = layoutInflater.inflate(R.layout.text_item_view, parent, false)
+        val view = layoutInflater.inflate(R.layout.list_item_sleep_night, parent, false)
         return ViewHolder(view)
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val item = data[position]
-        val res = holder.itemView.context.resources
         holder.bind(item)
     }
 
@@ -35,14 +34,12 @@ class SleepNightAdapter : RecyclerView.Adapter<SleepNightAdapter.ViewHolder>() {
 
     override fun getItemCount() = data.size
 
-    class ViewHolder(val itemView: View) : RecyclerView.ViewHolder(itemView) {
+    class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val sleepLength: TextView = itemView.findViewById(R.id.sleep_length)
         val quality: TextView = itemView.findViewById(R.id.sleep_quality)
         val qualityImage: ImageView = itemView.findViewById(R.id.quality_image)
 
-        fun bind(
-            item: SleepNight,
-        ) {
+        fun bind(item: SleepNight) {
             val res = itemView.context.resources
             sleepLength.text = convertDurationToFormatted(item.startTimeMilli, item.endTimeMilli, res)
             quality.text = convertNumericQualityToString(item.sleepQuality, res)
